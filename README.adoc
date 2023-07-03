@@ -1,0 +1,5 @@
+= Sample Projects!
+
+This repository contains sample projects i am using for learning clojure with some tools such as pedestal, lacinia, data.json and others that may fit applications needs.
+
+You are free to explore any project contained here.

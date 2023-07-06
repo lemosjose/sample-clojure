@@ -1,0 +1,4 @@
+{:deps 
+ {org.postgresql/postgresql {:mvn/version "42.2.5"}
+  org.clojure/java.jdbc  {:mvn/version "0.7.12"}}
+ :paths["src/clojure_database"]}

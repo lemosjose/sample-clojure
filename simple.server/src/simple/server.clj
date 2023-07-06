@@ -6,6 +6,8 @@
 (defn respond-server [request]
   {:status 200 :body "pong!"})
 
+(defn respond-type-server [request]
+  {:status 200 :body "jetty"})
 
 (defn non-allowed [request]
   {:status 403 :body "nope!"})
@@ -13,8 +15,6 @@
 (def routes
   (route/expand-routes
    #{["/test" :get respond-server :route-name :test]}))
-
-
 
 (defn server-spec []
   (http/create-server
